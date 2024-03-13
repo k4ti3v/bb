@@ -14,7 +14,7 @@ jobs:
       - name: Nuclei - Vulnerability Scan
         uses: projectdiscovery/nuclei-action@main
         with:
-          target: honey.scanme.sh
+          target: scalemates.com
 
       - name: GitHub Workflow artifacts
         uses: actions/upload-artifact@v4
